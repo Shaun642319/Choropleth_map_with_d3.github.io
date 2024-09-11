@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+  text-align: center;
+}
+
+
+h1{
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#tooltip{
+  border-radius: 10px;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  pointer-events: none;
+  padding: 10px;
+  background: white;
+  opacity: 0;
+  font-family: verdana;
+}
